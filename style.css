@@ -11,7 +11,9 @@ body {
 }
 
 header {
-    background-image: url("pic/back.png");
+    background: url("pic/back.png") ;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 header ul {
@@ -38,6 +40,8 @@ header nav {
     display: flex;
     justify-content: space-around;
     padding-top: 40px;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -83,6 +87,8 @@ h1 {
 
 .header-info {
     display: flex;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .header-info-box {
