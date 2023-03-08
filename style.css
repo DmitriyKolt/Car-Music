@@ -86,17 +86,17 @@ h1 {
 }
 
 .header-info-box {
-    padding:43px 66px;
     color: white;
     border-right: solid;
     border-top: solid;
     border-bottom: solid;
     border-color: #898989;
     border-width: 1px;
-
+    flex-basis: 640px;
 }
 
 .inf{
+    margin-top: 50px;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -117,8 +117,11 @@ h1 {
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #DB3138;
-    width: 500px;
     font-family: 'ReformaGroteskBoldC';
+}
+
+.inf-dop p {
+text-align: center;
 }
 
 
