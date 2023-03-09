@@ -154,9 +154,12 @@ h2 {
     margin-top: 0;
 }
 
+.services h2 {
+    text-align: center;
+}
+
 .achievements-box {
     width: 636px;
-    margin-left: 312px;
 }
 
 .achievements-box p {
@@ -219,6 +222,7 @@ h2 {
 
 .card-box {
     display: flex;
+    width: 636px;
 }
 
 .achievements {
@@ -226,6 +230,7 @@ h2 {
     max-width: 1920px;
     margin: 0 auto;
     margin-top: 180px;
+    justify-content: center;
 }
 
 .slider {
@@ -319,6 +324,124 @@ h3 {
     width: 422px;
 }
 
+h5 {
+    font-family: 'ReformaGroteskDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
 
+.tabs-item-wrapper p {
+    width: 226px;
+    font-family: 'ReformaGroteskDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-left: 43px;
+}
+
+.tabs-item-wrapper {
+    display: flex;
+    gap: 24px;
+}
+
+
+.tabs-item-card img {
+    padding-left: 117px;
+    padding-top: 80px;
+    height: 45px;
+    width: 70px;
+}
+
+
+.tabs-item-card {
+    width: 306px;
+    border: solid 1px #898989;
+}
+
+.tabs-item-card button {
+    font-family: 'ReformaGroteskDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    background-color: #DB3138;
+    border: none;
+    margin: 0 0 56px 100px;
+}
+
+.tabs {
+    width: 450px;
+    display: flex;
+    gap: 100px;
+    margin: 0 auto 80px;
+    justify-content: space-around;
+}
+
+.tabs-trig {
+    font-family: 'ReformaGroteskDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.tabs-wrapper {
+    margin-top: 61px;
+}
+
+.services {
+    width: 1296px;
+    margin: 180px auto;
+}
+
+#dots {
+    display: table;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.tabs-trig.active {
+    background-color: #DB3138;
+}
+
+.tabs-trig {
+    font-family: 'ReformaGroteskDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    padding: 20px 40px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #1E1E1E;
+    border: none;
+}
 
 
