@@ -1,0 +1,43 @@
+@media screen and (max-width: 1314px) {
+    .achievements {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .characteristics {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    nav ul {
+        display: none;
+    }
+
+    .header-box p {
+        width: 100%;
+    }
+
+    .achievements-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .achievements-box p {
+        width: 100%;
+    }
+
+    .card-box {
+        transform: scale(0.58);
+    }
+
+    .characteristics-box {
+        text-align: center;
+        width: 100%;
+    }
+
+    .dots {
+        margin: 80px auto;
+        display: block;
+    }
+}

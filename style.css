@@ -228,8 +228,7 @@ h2 {
 .achievements {
     display: flex;
     max-width: 1920px;
-    margin: 0 auto;
-    margin-top: 180px;
+    margin: 180px auto;
     justify-content: center;
 }
 
@@ -237,6 +236,7 @@ h2 {
     margin: 180px auto;
     padding-left: 312px;
     max-width: 1557px;
+    display: none;
 }
 
 .slider-buttons {
@@ -274,7 +274,7 @@ h3 {
     letter-spacing: 0.03em;
     color: #FFFFFF;
     display: flex;
-    width: 1296px;
+    justify-content: center;
     margin: 0 auto;
     gap: 134px;
 }
@@ -303,9 +303,6 @@ h3 {
     background-image: url("pic/right.png");
 }
 
-.slider2 {
-    width: 700px;
-}
 
 .slider2 img {
     margin-bottom: 50px;
