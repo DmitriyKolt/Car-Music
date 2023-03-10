@@ -16,6 +16,10 @@
 		url(Reformagroteskmediumc.otf); 
 }
 
+html, body {
+    overflow-x: hidden;
+  }
+
 body {
     margin: 0 auto;
     padding: 0;
@@ -409,6 +413,7 @@ h5 {
     width: 1296px;
     margin: 180px auto;
 }
+
 
 #dots {
     display: table;

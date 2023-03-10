@@ -40,4 +40,65 @@
         margin: 80px auto;
         display: block;
     }
+
+    .slider2 img {
+        margin-bottom: 50px;
+        transform: scale(0.5);
+    }
+
+    .slider2 p {
+        width: 200px;
+    }
+
+    .slider-buttons {
+    display: flex;
+    text-align: center;
+    gap: 33px;
+    justify-content: center;
+    transform: scale(0.7);
+    }
+
+    .services-box {
+        width: 100%;
+        display: flex;
+        text-align: center;
+    }
+
+
+    .tabs-item-wrapper {
+        display: flex;
+        gap: 24px;
+        margin: 0 auto;
+        width: 306px;
+        flex-wrap: wrap;
+    }
+
+    
+    .tabs {
+        width: 100%;
+        display: block;
+        margin: 0 auto 80px;
+        justify-content: space-around;
+    }
+
+
+    .services h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #dots {
+        margin: 0 auto;
+    }
+
+    .tabs-item-card {
+        width: 100%;
+        border: solid 1px #898989;
+    }
+    
+    .services { 
+    width: 100%;
+    margin: 180px auto;
+    }
+    
 }
