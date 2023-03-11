@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="mobile.css">
     <script src="slider.js" defer></script>
     <script src="tabs.js" defer></script>
+    <script src="smooth-scrool.js" defer></script>
 </head>
 <body>
     <header>
@@ -17,7 +18,7 @@
                 <li><a href="#">Главная</a></li>
                 <li><a href="#">Оклейка автомобилей</a></li>
                 <li><a href="#">Детейлинг автомобилей</a></li>
-                <li><a href="#">Галерея работ</a></li>
+                <li><a href="#gallery">Галерея работ</a></li>
             </ul>
             <img src="pic/logo.png" alt="лого">
         </nav>
@@ -28,7 +29,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur 
                 adipiscing elit. Vitae orci urna amet penatibus.
             </p>
-            <button>Наши услуги</button>
+            <button><a href="#carpasting">Наши услуги</a></button>
         </div>
 
         <div class="header-info">
@@ -167,7 +168,7 @@
         
     </div>
 
-    <div class="services">
+    <div class="services" id="carpasting">
         <div class="services-box">
             <h2>НАШИ УСЛУГИ</h2>
         </div>
@@ -241,7 +242,7 @@
                     </p>
                     <button>Подробнее</button>
                 </div>
-                
+
                 <div class="tabs-item-card">
                     <img src="pic/garant.png" alt="дизайн">
                     <h5>Оклейка салона</h5>
@@ -259,10 +260,85 @@
                     </p>
                     <button>Подробнее</button>
                 </div>
+
                 </div>
             </div>
         </div>
     </div>
 
+    <div class="characteristics">
+        <div class="slider2">
+            <div class="slider-container">
+                <div class="slider-track">
+                    <div class="slider-item"><img src="pic/car5.png" alt="машина"></div>
+                </div>
+            </div>
+            <div class="slider-buttons">
+                <button class="btn-prev"></button>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Pellentesque auctor nibh feugiat est. Consectetur lectus.
+                </p>
+                <button class="btn-next"></button>
+            </div>
+        </div>
+
+        <div>
+            <div class="characteristics-box">
+            <img src="pic/def.png" alt="пункты">
+            <h3>100% полироль axem</h3>
+            <p>Pharetra in bibendum id id. Sit maecenas sollicitudin est, hendrerit 
+                in malesuada. Eu, et lacus nisi mus 
+                sagittis, rhoncus est dictum. Gravida lectus urna, arcu, sodales. Ac.
+            </p>
+        </div>
+        <img src="pic/dots.png" alt="точки" class="dots">
+        <div class="characteristics-box">
+            <img src="pic/punkt.png" alt="опыт">
+            <h3>выполняем работу четко по тз</h3>
+            <p>Lorem nulla non nibh quis elit odio. Dui et ultricies duis 
+                mattis dictum et senectus nunc sodales. 
+                Tellus lorem risus etiam quam massa lobortis convallis laoreet. Nec.
+            </p>
+        </div>
+        <img src="pic/dots.png" alt="точки" class="dots">
+        <div class="characteristics-box">
+            <img src="pic/exp.png" alt="гарантия">
+            <h3>у нас лучшие мастера</h3>
+            <p>Posuere nam sodales ullamcorper bibendum justo maecenas at. 
+                Ultricies bibendum morbi tempor vehicula. Ultrices erat maecenas
+                 in id maecenas sed ipsum scelerisque.</p>
+        </div>
+        </div>
+        
+        
+    </div>
+
+    <div class="projects" id="gallery">
+        <div class="projects-box1">
+            <h2>Наши работы</h2>
+            <img src="pic/dots.png" alt="точки" class="dots">
+        </div>
+        
+        <div class="projects-box">
+            <img src="pic/car6.png" alt="машина">
+            <img src="pic/car7.png" alt="машина">
+            <img src="pic/car8.png" alt="машина">
+            <img src="pic/car9.png" alt="машина">
+            <img src="pic/car10.png" alt="машина">
+            <img src="pic/car11.png" alt="машина">
+            <img src="pic/car11.png" alt="машина">
+            <img src="pic/car10.png" alt="машина">
+            <img src="pic/car9.png" alt="машина">
+            <img src="pic/car8.png" alt="машина">
+            <img src="pic/car7.png" alt="машина">
+            <img src="pic/car6.png" alt="машина">
+            <img src="pic/car6.png" alt="машина">
+            <img src="pic/car7.png" alt="машина">
+            <img src="pic/car8.png" alt="машина">
+            <img src="pic/car9.png" alt="машина">
+            <img src="pic/car10.png" alt="машина">
+            <img src="pic/car11.png" alt="машина">
+        </div>
+    </div>
 </body>
 </html>

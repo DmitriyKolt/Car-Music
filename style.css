@@ -16,9 +16,9 @@
 		url(Reformagroteskmediumc.otf); 
 }
 
-html, body {
-    overflow-x: hidden;
-  }
+/*html, body {
+    /*overflow-x: hidden;
+  }*/
 
 body {
     margin: 0 auto;
@@ -240,7 +240,7 @@ h2 {
     margin: 180px auto;
     padding-left: 312px;
     max-width: 1557px;
-    display: none;
+    display: none;           /* ДОДЕЛАТЬ!!! */
 }
 
 .slider-buttons {
@@ -307,6 +307,9 @@ h3 {
     background-image: url("pic/right.png");
 }
 
+.slider2 {
+    display: none;  /* ДОДЕЛАТЬ!!! */
+}
 
 .slider2 img {
     margin-bottom: 50px;
@@ -445,5 +448,29 @@ h5 {
     background-color: #1E1E1E;
     border: none;
 }
+
+
+.projects {
+    max-width: 1920px;
+    margin: 180px auto;
+}
+
+.projects-box1 {
+    text-align: center;
+    margin: 0 auto 15px;
+    width: 636px;
+}
+
+.projects-box img {
+    margin: 0;
+    width: 16.666667%;
+}
+
+.projects-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 
 
