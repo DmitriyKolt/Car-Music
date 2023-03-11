@@ -307,9 +307,7 @@ h3 {
     background-image: url("pic/right.png");
 }
 
-.slider2 {
-    display: none;  /* ДОДЕЛАТЬ!!! */
-}
+
 
 .slider2 img {
     margin-bottom: 50px;
@@ -469,7 +467,171 @@ h5 {
 .projects-box {
     display: flex;
     flex-wrap: wrap;
+    align-self: center;
 }
+
+.questions {
+    margin-bottom: 100px;
+}
+
+.questions-box {
+    width: 636px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.questions-box1 {
+    display: flex;
+    gap: 24px;
+    width: 636px;
+    margin: 0 auto;
+}
+
+.questions-box1 input {
+    background: transparent;
+    padding: 15px 168px 10px 25px;
+    border: 1px solid #898989;
+    font-family: 'ReformaGroteskDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #898989;
+    margin-top: 60px;
+}
+
+.questions-box2 input{
+    font-family: 'ReformaGroteskDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #898989;
+    background: transparent;
+    padding: 15px 388px 113px 25px;
+    border: 1px solid #898989;
+}
+
+.questions-box2 {
+    margin: 0;
+    display: flex;
+    gap: 70px;
+    width: 636px;
+    margin: 24px auto;
+}
+
+.questions-box2 a {
+    padding: 10px 10px 5px;
+    border: 1px solid #898989;
+}
+
+.social {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.questions-box3 {
+    display: flex;
+    gap: 191px;
+    width: 690px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.questions-box3 button {
+    font-family: 'ReformaGroteskDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 15px 25px;
+    background-color: #DB3138;
+    border: none;
+}
+
+.con {
+    display: flex;
+    gap: 10px;
+    font-family: 'ReformaGroteskDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.con p {
+    margin: 0;
+}
+
+.number-email {
+    display: flex;
+    gap: 30px;
+    text-align: right;
+    width: 280px;
+    float: right;
+    margin-top: 13px;
+}
+
+.questions-box3-wrapper {
+    width: 300px;
+}
+
+footer {
+    display: flex;
+    gap: 187px;
+    border-top: 1px solid #898989;
+    justify-content: center;
+}
+
+footer ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 30px 0;
+}
+
+footer p {
+    font-family: 'ReformaGroteskDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin: 30px 0;
+}
+
+footer a {
+    font-family: 'ReformaGroteskMediumC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+
 
 
 

@@ -112,5 +112,52 @@
         width: 100%;
     }
 
+    .slider2 {
+        display: none;           /* ДОДЕЛАТЬ!!! */
+    }
+
+    .questions-box {
+        width: 100%;
+    }
+
+    .questions-box1 {
+        flex-wrap: wrap;
+        display: block;
+        width: 100%;
+    }
+
+    .questions-box2 input {
+        padding: 15px 168px 113px 25px;
+    }
+
+    .social {
+        flex-direction: row;
+    }
+
+    .questions-box2 {
+        display: block;
+    }
+
+    .questions-box3 {
+        display: block;
+        width: 100%;
+    }
+
+    .questions-box3 button {
+        margin-bottom: 20px;
+    }
+
+    .questions-box2 {
+        width: 100%;
+    }
+
+    footer {
+        gap: 0;
+        display: block;
+    }
+
+    footer ul {
+        display: block;
+    }
     
 }
